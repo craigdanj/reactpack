@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import style from "./style.less";
 
 const App = () => {
     return (
-        <div>
+        <div className={style.header}>
             <p>React app!</p>
         </div>
     );

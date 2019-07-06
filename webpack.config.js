@@ -16,6 +16,27 @@ module.exports = {
                     loader: "html-loader",
                     options: { minimize: true }
                 }
+            },
+            {
+                test: /\.less$/,
+                use: [
+                    {
+                        loader: "style-loader"
+                    },
+                    {
+                        loader: "css-loader",
+                        options: {
+                            sourceMap: true,
+                            modules: {
+                                mode: "local",
+                                localIdentName: "[path][name]__[local]--[hash:base64:5]"
+                            }
+                        }
+                    },
+                    {
+                        loader: "less-loader"
+                    }
+                ]
             }
         ]
     },
