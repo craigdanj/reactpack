@@ -4,7 +4,7 @@ Minimalistic boilerpate for a React project.
 ## Uses
 1. Webapck 4
 2. LESS
-3. Webpack dev server for hot reloading.
+3. Webpack Dev Server for hot reloading.
 
 
 ### Steps to setup
