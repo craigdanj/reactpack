@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import style from "./style.less";
 
 const App = () => {
-    return (
-        <div className={style.header}>
-            <p>React app!</p>
-        </div>
-    );
+	return (
+		<div className={style.header}>
+			<p>React app!</p>
+		</div>
+	);
 };
 
 export default App;
