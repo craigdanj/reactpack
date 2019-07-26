@@ -1,51 +1,49 @@
 {
-    "name":"reactpack",
-    "version":"1.0.0",
-    "description":"",
-    "main":"index.js",
-    "scripts":{
-        "start":"webpack-dev-server --open --mode development",
-        "build":"webpack",
-        "test":"echo \"Error: no test specified\" && exit 1",
-        "lint":"eslint src/**/*.js"
+    "name": "reactpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --open --mode development",
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint src/**/*.js"
     },
-    "repository":{
-        "type":"git",
-        "url":"git+https://github.com/craigdanj/reactpack.git"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/craigdanj/reactpack.git"
     },
-    "keywords":[
-
-    ],
-    "author":"",
-    "license":"MIT",
-    "bugs":{
-        "url":"https://github.com/craigdanj/reactpack/issues"
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/craigdanj/reactpack/issues"
     },
-    "homepage":"https://github.com/craigdanj/reactpack#readme",
-    "devDependencies":{
-        "@babel/core":"^7.5.0",
-        "@babel/preset-env":"^7.5.0",
-        "@babel/preset-react":"^7.0.0",
-        "babel-loader":"^8.0.6",
-        "clean-webpack-plugin":"^3.0.0",
-        "css-loader":"^3.0.0",
-        "file-loader":"^4.1.0",
-        "html-loader":"^0.5.5",
-        "html-webpack-plugin":"^3.2.0",
-        "less":"^3.9.0",
-        "less-loader":"^5.0.0",
-        "style-loader":"^0.23.1",
-        "webpack":"^4.35.2",
-        "webpack-cli":"^3.3.5",
-        "webpack-dev-server":"^3.7.2",
-        "eslint":"5.16.0",
-        "eslint-config-prettier":"5.0.0",
-        "eslint-plugin-prettier":"3.1.0",
-        "eslint-plugin-react":"7.13.0",
-        "prettier":"1.18.2"
+    "homepage": "https://github.com/craigdanj/reactpack#readme",
+    "devDependencies": {
+        "@babel/core": "^7.5.0",
+        "@babel/preset-env": "^7.5.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.6",
+        "clean-webpack-plugin": "^3.0.0",
+        "css-loader": "^3.0.0",
+        "file-loader": "^4.1.0",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "less": "^3.9.0",
+        "less-loader": "^5.0.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.35.2",
+        "webpack-cli": "^3.3.5",
+        "webpack-dev-server": "^3.7.2",
+        "eslint": "5.16.0",
+        "eslint-config-prettier": "5.0.0",
+        "eslint-plugin-prettier": "3.1.0",
+        "eslint-plugin-react": "7.13.0",
+        "prettier": "1.18.2"
     },
-    "dependencies":{
-        "react":"^16.8.6",
-        "react-dom":"^16.8.6"
+    "dependencies": {
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
     }
 }
