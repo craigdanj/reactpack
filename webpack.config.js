@@ -46,5 +46,5 @@ module.exports = {
             filename: "./index.html"
         })
     ],
-    devtool: "eval-source-map"
+    devtool: "source-map"
 }
