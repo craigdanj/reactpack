@@ -1,7 +1,7 @@
 # reactpack
 Minimalistic boilerpate for a React project.
 
-## Uses
+## Features
 1. Webapck 4
 2. LESS
 3. Webpack Dev Server for hot reloading.
