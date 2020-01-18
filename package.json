@@ -7,6 +7,7 @@
         "start": "webpack-dev-server --open --mode development",
         "electron:dev": "npm run serve & electron .",
         "electron:dist": "electron-builder -c.mac.identity=null",
+        "electron:dist:win": "electron-builder -c..identity=null",
         "serve": "webpack-dev-server --open false --mode development",
         "build": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,9 +25,13 @@
     },
     "homepage": "https://github.com/craigdanj/reactpack#readme",
     "build": {
-        "appId": "com.craigdanj.reactpack",
+        "appId": "com.companyName.appName",
         "mac": {
-            "category": "public.app-category.developer-tools"
+            "category": "public.app-category.developer-tools",
+            "icon": "icon.ico"
+        },
+        "win": {
+
         }
     },
     "devDependencies": {
