@@ -6,8 +6,8 @@
     "scripts": {
         "start": "webpack-dev-server --open --mode development",
         "electron:dev": "npm run serve & electron .",
-        "electron:dist": "electron-builder -c.mac.identity=null",
-        "electron:dist:win": "electron-builder -c..identity=null",
+        "electron:dist:mac": "electron-builder --mac",
+        "electron:dist:win": "electron-builder --win",
         "serve": "webpack-dev-server --open false --mode development",
         "build": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,10 +28,12 @@
         "appId": "com.companyName.appName",
         "mac": {
             "category": "public.app-category.developer-tools",
-            "icon": "icon.ico"
+            "identity": null
         },
         "win": {
-
+            "target": "msi",
+            "verifyUpdateCodeSignature": false,
+            "signAndEditExecutable": false
         }
     },
     "devDependencies": {
