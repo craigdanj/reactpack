@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server --open --mode development",
-        "start:electron": "npm run serve & electron .",
+        "electron:dev": "npm run serve & electron .",
+        "electron:dist": "electron-builder -c.mac.identity=null",
         "serve": "webpack-dev-server --open false --mode development",
         "build": "webpack",
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,6 +23,12 @@
         "url": "https://github.com/craigdanj/reactpack/issues"
     },
     "homepage": "https://github.com/craigdanj/reactpack#readme",
+    "build": {
+        "appId": "com.craigdanj.reactpack",
+        "mac": {
+            "category": "public.app-category.developer-tools"
+        }
+    },
     "devDependencies": {
         "@babel/core": "^7.5.0",
         "@babel/preset-env": "^7.5.0",
@@ -30,6 +37,7 @@
         "clean-webpack-plugin": "^3.0.0",
         "css-loader": "^3.0.0",
         "electron": "^7.1.9",
+        "electron-builder": "^22.2.0",
         "eslint": "5.16.0",
         "eslint-config-prettier": "5.0.0",
         "eslint-plugin-prettier": "3.1.0",
