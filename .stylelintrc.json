@@ -1,6 +1,13 @@
 {
     "rules": {
         "indentation": "tab",
+        "linebreaks": "unix",
+        "no-eol-whitespace": true,
+        "max-empty-lines": 2,
+        "no-missing-end-of-source-newline": true,
+        "no-empty-first-line": true,
+
+
         "color-no-invalid-hex": true,
         "font-family-no-duplicate-names": true,
         "font-family-no-missing-generic-family-keyword": true,
@@ -27,7 +34,12 @@
         "number-leading-zero": "always",
         "number-no-trailing-zeros": true,
         "string-quotes": "double",
-        "length-zero-no-unit": true
-
+        "length-zero-no-unit": true,
+        "unit-case": "lower",
+        "value-keyword-case": "lower",
+        "value-list-comma-space-after": "always",
+        "value-list-comma-space-before": "never",
+        "value-list-max-empty-lines": 0,
+        "property-case": "lower"
     }
 }
