@@ -17,7 +17,17 @@
         "comment-no-empty": true,
         "no-duplicate-at-import-rules": true,
         "no-extra-semicolons": true,
-        "shorthand-property-no-redundant-values": true
+        "shorthand-property-no-redundant-values": true,
+        "declaration-block-single-line-max-declarations": 1,
+        "selector-max-empty-lines": 0,
+        "no-unknown-animations": true,
+        "color-hex-case": "lower",
+        "color-hex-length": "short",
+        "font-family-name-quotes": "always-unless-keyword",
+        "number-leading-zero": "always",
+        "number-no-trailing-zeros": true,
+        "string-quotes": "double",
+        "length-zero-no-unit": true
 
     }
 }
