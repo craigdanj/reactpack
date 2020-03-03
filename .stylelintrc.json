@@ -40,6 +40,10 @@
         "value-list-comma-space-after": "always",
         "value-list-comma-space-before": "never",
         "value-list-max-empty-lines": 0,
-        "property-case": "lower"
+        "property-case": "lower",
+        "at-rule-name-case": "lower",
+        "at-rule-name-space-after": "always",
+        "at-rule-semicolon-newline-after": "always",
+        "at-rule-semicolon-space-before": "never"
     }
 }
