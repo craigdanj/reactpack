@@ -13,10 +13,10 @@ Minimalistic boilerpate for a React project.
 ### Steps to setup:
 1. Clone or download repository.
 2. `npm start` to run the webapp in development mode.
-3. `npm run build` to build for production.
+3. `npm run build` to build the web app for production.
 
-### In addition you can run the following:
+### In addition you can run
 4. `npm run lint` to lint JS files.
 5. `npm run stylelint` to lint Less files.
 6. `electron:dist:mac` to build a desktop app for Mac.
-6. `electron:dist:win` to build a desktop app for the Windows platform.
+7. `electron:dist:win` to build a desktop app for the Windows platform.
