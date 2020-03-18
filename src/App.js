@@ -13,12 +13,16 @@ const App = () => {
 	const Test = React.lazy(() => import('./Test'))
 
 	return (
-		<div className={style.header}>
-			<p>React app!</p>
-			<Suspense fallback={<p>Loading</p>}>
-				<Test />
-			</Suspense>
-		</div>
+		<>
+			<div className={style.header}>
+				<p>React app!</p>
+			</div>
+			<div className={style.content}>
+				<Suspense fallback={<p>Loading</p>}>
+					<Test />
+				</Suspense>
+			</div>
+		</>
 	);
 };
 
